@@ -1,0 +1,82 @@
+/* Apply styles to the AnchorPane */
+.anchor-pane {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Style the Rectangle (header background) */
+.rectangle {
+    -fx-fill: #0a3f71;
+    -fx-stroke: black;
+    -fx-arc-height: 5px;
+    -fx-arc-width: 5px;
+}
+
+/* Style the Label (Title) */
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
+
+/* Style TextFields */
+.text-field {
+    -fx-pref-width: 170px;
+    -fx-padding: 5px;
+    -fx-border-color: #0a3f71;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-border-color: #0a3f71;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-padding: 5px;
+    -fx-font-size: 16px;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #0a3f71;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 5px;
+}
+
+.table-row-cell {
+    -fx-border-color: #ddd;
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-color: #f9f9f9;
+    -fx-font-size: 16px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #e6e6e6;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #0a3f71;
+    -fx-text-fill: white;
+}
+
+/* Buttons Styling */
+.button {
+    -fx-background-color: #0a3f71;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #08508a;
+}
+
+.button:pressed {
+    -fx-background-color: #062d52;
+}
